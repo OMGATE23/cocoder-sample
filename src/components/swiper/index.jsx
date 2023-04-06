@@ -39,8 +39,8 @@ const Slider = () => {
 
   return (
     <div className="h-[750px] bg-white">
-      <div className="mt-8">
-        <h2 className="text-center pt-20 text-textColor text-7xl font-bold">
+      <div className="mt-8 mx-4">
+        <h2 className="text-center pt-20 text-textColor text-5xl lg:text-7xl font-bold">
           Testimonials
         </h2>
       </div>
@@ -49,14 +49,14 @@ const Slider = () => {
         <Swiper
           navigation={true}
           modules={[Navigation]}
-          className="w-1/2 h-[450px] "
+          className="w-4/5 lg:w-1/2 h-[450px] "
         >
           {testimonials.map((item) => {
             const { name, title, text } = item;
 
             return (
               <SwiperSlide className=" text-center bg-white ">
-                <div className="w-1/2 h-[450px] py-8 mt-[2rem] mx-auto  text-ellipsis bg-fadedPrimaryColor shadow-xl">
+                <div className=" w-4/5 lg:w-1/2 h-[450px] py-8 mt-[2rem] mx-auto  text-ellipsis bg-fadedPrimaryColor shadow-xl">
                   <img src={profileImg} className="rounded-full w-16 mx-auto" />
                   <h4 className="text-2xl text-textColor mt-4">{name}</h4>
                   <p className="text-lg text-secondaryTextColor">{title}</p>
