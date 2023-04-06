@@ -27,7 +27,7 @@ const Content = () => {
   ];
   return (
     <div className="">
-      <h2 className="mx-auto pt-20 w-3/4 text-7xl text-center  font-bold text-textColor">
+      <h2 className="mx-auto pt-20 w-3/4 text-5xl lg:7xl text-center  font-bold text-textColor">
         Check out our content
       </h2>
       <div className=" w-full xl:w-4/5 p-8 py-12 pb-28 mx-auto grid grid-cols-1 text-center justify-items-center lg:grid-cols-3 gap-6 ">
