@@ -52,7 +52,7 @@ const Navbar = () => {
           <div className=" transition-all font-semibold duration-500 outline outline-2 outline-textColor text-textColor rounded-md mr-4 px-4 py-2 hover:bg-textColor hover:outline-none hover:text-white">
             <a
               className="hidden lg:flex item items-center justify-around"
-              href=""
+              href="https://discord.gg/faWEWbTR"
             >
               <p className="text-lg">Join Our Discord </p>
 
