@@ -8,7 +8,7 @@ const Hero = () => {
         <div className=" pt-8 h-full font-bold text-5xl text-center lg:text-7xl lg:text-left">
           Join CoCode and become a part of this exciting community
         </div>
-        <div className="bg-none  mx-auto text-base w-fit lg:ml-0">
+        <div className="bg-none mt-6 mx-auto text-base w-fit lg:ml-0">
           <button className=" transition-all duration-300 w-36  py-1 text-textColor hover:text-white hover:bg-textColor border-solid border-[3px] rounded-lg border-textColor  bg-none">
             <span className="text-lg  font-[600] ">Join now</span>{" "}
           </button>
