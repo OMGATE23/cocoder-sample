@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { RocketLaunchIcon } from "@heroicons/react/24/solid";
 import discordIcon from "../../assets/discord-icon.svg";
+import { toast } from "react-toastify";
 const Navbar = () => {
   const [menuHidden, setMenuHidden] = useState("hidden");
 
@@ -24,24 +25,28 @@ const Navbar = () => {
         <div className="hidden lg:flex ml-4 font-semibold text-secondaryTextColor items-center justify-around text-lg w-1/3 ">
           <a
             href="#"
+            onClick={() => toast.success('Pages to be added soon!')}
             className="transition-all hover:border-b-2 hover:translate-y-[-5px]  duration-100 border-themeLinks my-8"
           >
             Home
           </a>
           <a
             href="#"
+            onClick={() => toast.success('Pages to be added soon!')}
             className="hover:border-b-2 hover:translate-y-[-5px]  duration-100 border-themeLinks my-8"
           >
             About Us
           </a>
           <a
             href="#"
+            onClick={() => toast.success('Pages to be added soon!')}
             className="hover:border-b-2 hover:translate-y-[-5px]  duration-100 border-themeLinks my-8"
           >
             Hackathons
           </a>
           <a
             href="#"
+            onClick={() => toast.success('Pages to be added soon!')}
             className="hover:border-b-2 hover:translate-y-[-5px]  duration-100 border-themeLinks my-8"
           >
             Blogs

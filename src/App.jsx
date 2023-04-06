@@ -4,6 +4,10 @@ import './App.css'
 import Entry from './Entry'
 import Home from './pages/home'
 
+//react toastify
+import { ToastContainer} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -23,6 +27,7 @@ function App() {
   return (
     <div className="App font-poppins">
       <RouterProvider router = {router}/>
+      <ToastContainer />
     </div>
   )
 }
